@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Mahi Uddin | AI Researcher & Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">M</span>
+                <div class="logo-name">
+                    <span class="first-name">MAHI</span>
+                    <span class="last-name">UDDIN</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active"><span>Home</span></a></li>
+                <li><a href="#about" class="nav-link"><span>About</span></a></li>
+                <li><a href="#skills" class="nav-link"><span>Skills</span></a></li>
+                <li><a href="#education" class="nav-link"><span>Education</span></a></li>
+                <li><a href="#research" class="nav-link"><span>Research</span></a></li>
+                <li><a href="#portfolio" class="nav-link"><span>Portfolio</span></a></li>
+                <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h5 class="subtitle">Welcome to My Portfolio</h5>
+                    <h1 class="title">
+                        <span class="gradient-text">Md. Mahi Uddin</span>
+                        <br>
+                        <span class="typing-text"></span>
+                    </h1>
+                    <p class="description">
+                        Passionate Web Developer & (ML/AI Researcher) specializing in Machine Learning, 
+                        Deep Learning,  web technologies. Transforming complex problems 
+                        into elegant solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Contact Me</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/Mahiuddin-developer " class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/md-mahi-uddin
+880350397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/share/1GEXkJWRQY/?mibextid=wwXIfr " class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://drive.google.com/file/d/1p2nKJiZHMIgDaD1c5LJ96f7pShv0Hyih/view?usp=sharing" class="social-icon"><i class="fab fa-globe"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-researchgate"></i></a>
+                    </div>
+                </div>
+                <!-- work update section  -->
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="main-image">
+                            <img src="img/mahi.jpg.jpeg" alt="Md. Mahi Uddin">
+                            <div class="image-border"></div>
+                        </div>
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Research</span>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="years">Modern</span>
+                            <span class="text">Web application Expert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="1">0</div>
+                    <div class="stat-label">Internship</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="4">0</div>
+                    <div class="stat-label">Publication</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="5">0</div>
+                    <div class="stat-label">Certifications</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">Get to know me</h5>
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="img/mahi2.jpeg" alt="Md. Mahi Uddin">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate Computer Engineer & AI Enthusiast</h3>
+                    <p>
+                        I am <strong>Md. Mahi Uddin</strong>, a dedicated Computer Science & Engineering student 
+                        at Southeast University with a deep passion for Artificial Intelligence, Machine Learning, 
+                        and Web Development.
+                    </p>
+                    <p>
+                        My journey in technology began with curiosity and has evolved into a commitment to 
+                        creating innovative solutions that bridge the gap between complex algorithms and 
+                        real-world applications.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <div class="detail-label">
+                                <i class="fas fa-user"></i>
+                                <span>Name:</span>
+                            </div>
+                            <div class="detail-value">Md. Mahi Uddin</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email:</span>
+                            </div>
+                            <div class="detail-value">mahiuddincse@gmail.com</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Location:</span>
+                            </div>
+                            <div class="detail-value">154/4,Road No.01,Mohanagar Project, Dhaka, Bangladesh</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Education:</span>
+                            </div>
+                            <div class="detail-value">BSc in CSE</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h4><i class="fas fa-bullseye"></i> Mission</h4>
+                            <p>To leverage cutting-edge technologies to solve real-world problems and contribute to the advancement of AI research.</p>
+                        </div>
+                        <div class="vision">
+                            <h4><i class="fas fa-eye"></i> Vision</h4>
+                            <p>To become a leading AI researcher and developer, creating impactful solutions that improve lives globally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">My abilities</h5>
+                <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- programming Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Programming Skills</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>c</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>c++</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>java</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>python</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Development Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Development Skills</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML</span>
+                                <span>97%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="97"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>css</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI/ML Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI/ML Skills</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pandas</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PyTorch</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>NLP</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section-padding" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">Academic journey</h5>
+                <h2 class="section-title">Education & <span class="highlight">Experience</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>BSc in Computer Science & Engineering</h3>
+                            <span class="institution">Southeast University</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Currently pursuing degree with focus on AI, ML, and Software Engineering.</p>
+                            <div class="achievements">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Member of SEU Computer Club</li>
+                                   
+                                    <li>Research on AI for Medical Diagnosis</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="courses">
+                                <h4>Relevant Courses:</h4>
+                                <div class="course-tags">
+                                    <span>Data Structures</span>
+                                    <span>Algorithms</span>
+                                    <span>Machine Learning</span>
+                                    <span>Deep Learning</span>
+                                    
+                                    <span>Web Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2021-2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            
+                            
+                        </div>
+                        <div class="timeline-body">
+                            <p>Worked on developing ML models for healthcare applications.</p>
+                            <div class="achievements">
+                                <h4>Responsibilities:</h4>
+                                <ul>
+                                    <li>Developed pneumonia detection model</li>
+                                    <li>Implemented attention mechanisms</li>
+                                    <li>Published research paper</li>
+                                    <li>Presented at international conference</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2025-2026</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            
+                            
+                        </div>
+                        <div class="timeline-body">
+                            <p>Developed responsive web applications using modern technologies.</p>
+                            <div class="achievements">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>javaScript</span>
+                                    <span>PHP</span>
+                                    <span>React</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research section-padding" id="research">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">Academic work</h5>
+                <h2 class="section-title">Research & <span class="highlight">Publications</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="research-main">
+                <div class="research-card featured">
+                    <div class="research-header">
+                        <div class="university-badge">
+                            <i class="fas fa-university"></i>
+                            <span>SEU & USET</span>
+                        </div>
+                        <h3>PneumoniaXAttnNet:An Attention-Driven Xception Framework for Accurate pneumonia classification with XAI</h3>
+                        <p class="research-subtitle">Enhancing the Explication Network with Visual Attention Mechanism</p>
+                    </div>
+                    <div class="research-body">
+                        <div class="research-image">
+                            <img src="WhatsApp Image 2026-01-16 at 9.44.23 PM.jpeg" alt="Research Paper">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <div class="research-details">
+                            <div class="research-info">
+                                <div class="info-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Published: October 2025</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-book"></i>
+                                    <span>INTERNATIONAL CONFERENCE: IEEE COMPASH 2025. Paper ID:681</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Authors: Md. Mahi Uddin, Yousuf Howlader, Md. Tajuddin, Md Mijanur Rahman et al.</span>
+                                </div>
+                            </div>
+                            <p class="research-abstract">
+                                Pneumonia is still a big health problem around the
+world, thus we need quick and accurate ways to diagnose it.
+While deep learning models have shown promise, their clinical
+adoption is often hindered by a lack of interpretability and an
+inability to focus on diagnostically salient regions. To overcome
+these limitations, this paper introduces PneumoniaXAttnNet, a
+novel deep learning framework that integrates a custom channel-
+spatial attention module with a fine-tuned Xception backbone
+to enhance feature representation by concentrating on critical
+areas within radiographic images. Our model shows state-of-
+the-art performance when tested on the public Chest X-Ray
+Images (Pneumonia) dataset, with an accuracy of 97.35% and
+an Area Under the Curve (AUC) of 0.9927, which is better
+than previous benchmarks. Beyond quantitative metrics, we
+employed a suite of explainable AI (XAI) methods, explicitly
+Grad-CAM, Simple Gradients, and SmoothGrad, to visually
+validate that the model’s predictions are grounded in clinically
+relevant pathological features, such as areas of lung opacity. By
+combining high diagnostic accuracy with transparent, verifiable
+decision-making, PneumoniaXAttnNet represents a significant
+step towards developing a robust and trustworthy computer-
+aided diagnostic tool for clinical practice.
+Index Terms—Pneumonia Classification, Deep Learning, Con-
+volutional Neural Networks (CNN), Attention Mechanism, Ex-
+plainable Artificial Intelligence (XAI), Chest X-Ray
+                            </p>
+                            <div class="research-tags">
+                                <span>Deep Learning</span>
+                                <span>Medical AI</span>
+                                <span>XAI</span>
+                                <span>Computer Vision</span>
+                            </div>
+                            <div class="research-actions">
+                                <a href="https://drive.google.com/file/d/1NGzF1-iTQp8rxi4SVv4gQKj5SRSuVsOO/view?usp=drive_link" class="btn btn-primary">
+                                    <i class="fas fa-file-pdf"></i> Read Paper
+                                </a>
+                                <a href="#" class="btn btn-outline">
+                                    <i class="fas fa-code"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="other-research">
+                    <h3>Other Research Interests</h3>
+                    <div class="interest-grid">
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4>Explainable AI</h4>
+                            <p>Making AI decisions transparent and interpretable</p>
+                        </div>
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <h4>Health Informatics</h4>
+                            <p>AI applications in medical diagnosis</p>
+                        </div>
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Cybersecurity</h4>
+                            <p>AI for threat detection and prevention</p>
+                        </div>
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <h4>Blockchain</h4>
+                            <p>Decentralized AI systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+   <section class="portfolio section-padding" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">My work</h5>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Projects will be loaded by JavaScript -->
+            </div>
+            
+            <div class="view-more">
+                <a href="#" class="btn btn-outline">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">Get in touch</h5>
+                <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>mahiuddincse@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>+8801865087085</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>154/4,Road No.01,mohanagar project, Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Connect with me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/Mahiuddin-developer "><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/md-mahi-uddin
+880350397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/share/1GEXkJWRQY/?mibextid=wwXIfr "><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-researchgate"></i></a>
+                            <a href="#"><i class="fab fa-kaggle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>M</span>
+                    <div class="footer-name">
+                        <span>MAHI</span>
+                        <span>UDDIN</span>
+                    </div>
+                </div>
+                <p class="footer-text">
+                    AI Researcher & Web Developer passionate about creating innovative solutions
+                </p>
+                <div class="footer-social">
+                    <a href="https://github.com/Mahiuddin-developer "><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/md-mahi-uddin
+880350397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/1GEXkJWRQY/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-researchgate"></i></a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Md. Mahi Uddin. All rights reserved.</p>
+                    <p>Designed with <i class="fas fa-heart"></i> for the tech community</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
